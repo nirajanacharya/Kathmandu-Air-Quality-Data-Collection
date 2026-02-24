@@ -2,27 +2,6 @@
 
 Automated pipeline to fetch and process air quality data for Kathmandu, Nepal from OpenAQ API.
 
-## Project Structure
-
-```
-Air quality data Arustha group/
-├── .env                        # API key configuration (not in git)
-├── .gitignore                  # Git ignore rules
-├── config.py                   # Configuration settings
-├── main.py                     # Main execution script
-├── requirements.txt            # Python dependencies
-├── README.md                   # This file
-├── analyze_data.ipynb          # Jupyter notebook for data analysis
-├── data/                       # Data directory
-│   ├── raw/                    # Raw data from API
-│   │   └── raw_pollutant_data.csv
-│   └── processed/              # Cleaned and processed data
-│       ├── final_timeseries_data.csv
-│       └── daily_averages.csv
-└── src/                        # Source code modules
-    ├── fetch_data.py           # API data fetching
-    └── preprocess.py           # Data cleaning and processing
-```
 
 ## Setup
 
@@ -36,7 +15,7 @@ Air quality data Arustha group/
    OPENAQ_API_KEY=your_api_key_here
    ```
 
-3. Get your free API key from [OpenAQ](https://openaq.org/)
+3. Get your free API key from [OpenAQ](https://explore.openaq.org/#1.2/20/40)
 
 ## Usage
 
